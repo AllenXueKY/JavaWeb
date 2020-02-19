@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格全选</title>
+    <style>
+        table{
+            border: 1px solid;
+            width: 500px;
+            margin-left: 30%;
+        }
+
+        td,th{
+            text-align: center;
+            border: 1px solid;
+        }
+        div{
+            margin-top: 10px;
+            margin-left: 30%;
+        }
+        .out{
+            background-color: white;
+        }
+        .over{
+            background-color: pink;
+        }
+    </style>
+    <script>
+        //1、在页面加载完之后绑定事件
+        window.onload = function () {
+            //2、给全选按钮绑定事件
+            document.getElementById("selectAll").onclick = function () {
+                var cbs = document.getElementsByName("cb");
+                for (var i = 0; i < cbs.length; i++) {
+                    cbs[i].checked = true;
+                }
+            }
+            //3、给全不选按钮绑定事件
+            document.getElementById("unSelectAll").onclick = function () {
+                var cbs = document.getElementsByName("cb");
+                for (var i = 0; i < cbs.length; i++) {
+                    cbs[i].checked = false;
+                }
+            }
+            //4、给反选按钮绑定事件
+            document.getElementById("selectRev").onclick = function () {
+                var cbs = document.getElementsByName("cb");
+                var number = 0;
+                /**
+                 * 当第一个cb为true时，反选后都为false，
+                 * 当第一个cb为false时，反选后，如果其它几个（cbs.length-1）返选之前cb都为false，反选之后第一个cb为true其他也为true，
+                 * 否则只能是除第一个cb外的其它cb反转
+                 */
+                for (var i = 1; i < cbs.length; i++) {
+                    if (cbs[i].checked == false){
+                        number++;
+                    }
+                }
+                if (cbs[0].checked == true){
+                    for (var i = 0; i < cbs.length; i++) {
+                        cbs[i].checked = false;
+                    }
+                }else{
+                    if (number == cbs.length-1){
+                        for (var i = 0; i < cbs.length; i++) {
+                            cbs[i].checked = true;
+                        }
+                    } else {
+                        for (var i = 1; i < cbs.length; i++) {
+                            cbs[i].checked = !cbs[i].checked;
+                        }
+                    }
+                }
+
+                if (number >= cbs.length-1){
+                    cbs[0].checked = true;
+                }else {
+                    cbs[0].checked = false;
+                }
+                // alert(number + ";" + cbs.length);
+            }
+            //5、给第一个cb绑定事件
+            document.getElementById("firstCb").onclick = function () {
+                var cbs = document.getElementsByName("cb");
+
+                for (var i = 1; i < cbs.length; i++) {
+                    cbs[i].checked = this.checked;
+                }
+            }
+            //6、给所有tr绑定鼠标移到元素之上和移出元素之上事件
+            var trs = document.getElementsByTagName("tr");
+            for (var i = 0; i < trs.length; i++) {
+                //移到元素之上
+                trs[i].onmouseover = function () {
+                    this.className = "over";
+                }
+                //移出元素
+                trs[i].onmouseout = function () {
+                    this.className = "out";
+                }
+            }
+            //7、如果除第一个cb之外其它三个都勾了，则第一个cb也勾上;反之，第一个也不勾
+            var cbs = document.getElementsByName("cb");
+            var number = 0;
+            for (var i = 1; i < cbs.length; i++) {
+                cbs[i].onclick = function () {
+                    number ++;
+                }
+            }
+            if (number == cbs.length-1){
+                cbs[0].checked = true;
+            }
+        }
+
+
+
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+
+<table>
+    <caption>学生信息表</caption>
+    <tr>
+        <th><input type="checkbox" name="cb" id="firstCb"></th>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>1</td>
+        <td>令狐冲</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);">删除</a></td>
+    </tr>
+
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);">删除</a></td>
+    </tr>
+
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>3</td>
+        <td>岳不群</td>
+        <td>?</td>
+        <td><a href="javascript:void(0);">删除</a></td>
+    </tr>
+
+</table>
+<div>
+    <input type="button" id="selectAll" value="全选">
+    <input type="button" id="unSelectAll" value="全不选">
+    <input type="button" id="selectRev" value="反选">
+</div>
+
+</body>
+</html>
