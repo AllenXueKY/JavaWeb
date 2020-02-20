@@ -2,6 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61490b11-c333-480f-8ddd-4a23bb076c77" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/JsoupXpath-0.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jsoup-1.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/dtd/student.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/dtd/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/jsoup/JsoupDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/jsoup/JsoupDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/jsoup/JsoupDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/jsoup/JsoupDemo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/jsoup/JsoupDemo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/jsoup/JsoupDemo6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/schema/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/com/allen/xml/schema/student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day04_xml/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/dtd/student.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/dtd/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/jsoup/JsoupDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/jsoup/JsoupDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/jsoup/JsoupDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/jsoup/JsoupDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/jsoup/JsoupDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/jsoup/JsoupDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/schema/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/allen/xml/schema/student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day03_bootstrp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_bootstrp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +48,7 @@
     <session id="571799179">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -91,7 +125,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -189,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582210177140" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582210361749" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -321,7 +355,7 @@
     <option name="totallyTimeSpent" value="7035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="1" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="设计器" />
