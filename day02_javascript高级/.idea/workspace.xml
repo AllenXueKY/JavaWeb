@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec992609-4b01-459c-8d7e-445632433ffd" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/../day01_javascript基础/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day01_javascript基础/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec992609-4b01-459c-8d7e-445632433ffd" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +13,7 @@
     <session id="926218598">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/18_案例6-表单验证.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3367">
-              <caret line="248" column="66" lean-forward="true" selection-start-line="248" selection-start-column="66" selection-end-line="248" selection-end-column="66" />
+            <state relative-caret-position="120">
+              <caret line="4" column="11" lean-forward="true" selection-end-line="356" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -113,10 +112,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -186,7 +185,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582126626041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582127766836" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -219,15 +218,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582081235333</updated>
-      <workItem from="1582081236884" duration="24787000" />
+      <workItem from="1582081236884" duration="25735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24787000" />
+    <option name="totallyTimeSpent" value="25735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="760" y="0" width="784" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
@@ -408,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/18_案例6-表单验证.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3367">
-          <caret line="248" column="66" lean-forward="true" selection-start-line="248" selection-start-column="66" selection-end-line="248" selection-end-column="66" />
+        <state relative-caret-position="120">
+          <caret line="4" column="11" lean-forward="true" selection-end-line="356" selection-end-column="7" />
         </state>
       </provider>
     </entry>
