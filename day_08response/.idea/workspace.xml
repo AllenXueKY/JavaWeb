@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a1134be-7a24-49e0-96bf-3bd5da15978d" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/../day07_servlet&amp;http&amp;request/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day07_servlet&amp;http&amp;request/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/day07_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../day07_test/day07_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_test/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="1a1134be-7a24-49e0-96bf-3bd5da15978d" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +18,12 @@
     <session id="760211156">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/allen/web/servlet/CheckCodeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
+            <state relative-caret-position="1260">
               <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/web/download.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="9" column="8" lean-forward="true" selection-end-line="13" selection-end-column="7" />
+              <caret line="9" column="8" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/allen/web/download/DownloadServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="750">
-              <caret line="35" column="19" lean-forward="true" selection-end-line="54" />
+              <caret line="35" column="19" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -181,7 +170,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -314,8 +303,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,17 +429,18 @@
       <workItem from="1582428795231" duration="12315000" />
       <workItem from="1582449057895" duration="278000" />
       <workItem from="1582449575579" duration="3113000" />
+      <workItem from="1582514075977" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15706000" />
+    <option name="totallyTimeSpent" value="16305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.35321715" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.35790884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -629,23 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="863">
           <caret line="35" lean-forward="true" selection-start-line="2" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/allen/web/servlet/ResponseDemo5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/allen/web/download/DownloadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="35" column="19" lean-forward="true" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -656,9 +629,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/allen/web/servlet/ResponseDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/allen/web/servlet/CheckCodeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="1260">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -669,7 +649,14 @@
     <entry file="file://$PROJECT_DIR$/web/download.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="8" lean-forward="true" selection-end-line="13" selection-end-column="7" />
+          <caret line="9" column="8" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/allen/web/download/DownloadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="35" column="19" selection-end-line="54" />
         </state>
       </provider>
     </entry>
