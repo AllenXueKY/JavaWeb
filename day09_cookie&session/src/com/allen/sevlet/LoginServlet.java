@@ -36,8 +36,10 @@ public class LoginServlet extends HttpServlet {
         //先获取生成的验证码
         HttpSession session = request.getSession();
         String checkCode_session = (String) session.getAttribute("checkCode_session");
+        //删除session中存储的验证码
+        session.removeAttribute("checkCode_session");
         //先判断验证码是否正确
-        if (checkCode_session.equalsIgnoreCase(checkCode)){
+        if (checkCode_session != null && checkCode_session.equalsIgnoreCase(checkCode)){
             //忽略大小写比较字符串
             //验证码正确
             //判断用户名和密码是否一致
@@ -54,12 +56,10 @@ public class LoginServlet extends HttpServlet {
             }else {
                 //登陆成功
                 //存储数据
-                request.setAttribute("user",user);
+                session.setAttribute("user",user.getUsername());
                 //重定向到success.jsp
                 response.sendRedirect(request.getContextPath()+"/success.jsp");
-
             }
-
         }else {
             //验证码不一致
             //存储提示信息到request
