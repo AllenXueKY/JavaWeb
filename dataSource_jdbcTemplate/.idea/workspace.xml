@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd23c355-8b42-4835-a086-92befd202047" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/../JDBC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/jdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/com/allen/jdbc/JdbcDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/com/allen/jdbc/JdbcDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/src/com/allen/jdbc/JdbcDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/src/com/allen/jdbc/JdbcDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/src/com/allen/jdbc/JdbcDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/src/com/allen/jdbc/JdbcDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day02_javascript高级/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day02_javascript高级/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_bootstrp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_bootstrp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day07_servlet&amp;http&amp;request/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day07_servlet&amp;http&amp;request/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd23c355-8b42-4835-a086-92befd202047" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +13,7 @@
     <session id="847710662">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="2" />
@@ -106,7 +96,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -341,7 +331,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582705205447</updated>
       <workItem from="1582705208026" duration="8661000" />
-      <workItem from="1582722105599" duration="1667000" />
+      <workItem from="1582722105599" duration="1668000" />
     </task>
     <servers />
   </component>
@@ -378,10 +368,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10328000" />
+    <option name="totallyTimeSpent" value="10329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
