@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -19,7 +20,7 @@
 <body>
 <div align="center">
   <a
-          href="${pageContext.request.contextPath}/userListServlet" style="text-decoration:none;font-size:33px">查询所有用户信息
+          href="${pageContext.request.contextPath}/login.jsp" style="text-decoration:none;font-size:33px">查询所有用户信息
   </a>
 </div>
 </body>

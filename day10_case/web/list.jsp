@@ -43,14 +43,14 @@
         </tr>
         <c:forEach items="${users}" var="user" varStatus="s">
             <tr>
-                <td>${s.count}</td>
-                <td>${user.name}</td>
-                <td>${user.gender}</td>
-                <td>${user.age}</td>
-                <td>${user.address}</td>
-                <td>${user.qq}</td>
-                <td>${user.email}</td>
-                <td><a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;<a class="btn btn-default btn-sm" href="">删除</a></td>
+                    <td>${s.count}</td>
+                    <td>${user.name}</td>
+                    <td>${user.gender}</td>
+                    <td>${user.age}</td>
+                    <td>${user.address}</td>
+                    <td>${user.qq}</td>
+                    <td>${user.email}</td>
+                <td><a type="submit" id="update" class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/update.jsp">修改</a>&nbsp;<a class="btn btn-default btn-sm" href="">删除</a></td>
             </tr>
         </c:forEach>
         <tr>

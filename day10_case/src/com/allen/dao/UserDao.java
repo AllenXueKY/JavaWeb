@@ -19,4 +19,10 @@ public interface UserDao {
      * @param user
      */
     public int add(User user);
+
+    /**
+     * 修改用户信息
+     * @param user
+     */
+    public int update(User user);
 }

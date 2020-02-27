@@ -20,4 +20,9 @@ public class UserServiceImpl implements UserService {
         return dao.add(user);
     }
 
+    @Override
+    public int update(User user) {
+        return dao.update(user);
+    }
+
 }

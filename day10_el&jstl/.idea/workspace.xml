@@ -7,7 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a057b6-8b44-4be2-bd0b-12fed53a9a65" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/../day09_cookie&amp;session/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day09_cookie&amp;session/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/WEB-INF/classes/com/allen/web/UserAddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/WEB-INF/classes/com/allen/web/UserAddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/out/production/day10_case/com/allen/web/UserAddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/out/production/day10_case/com/allen/web/UserAddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/src/com/allen/web/UserAddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/src/com/allen/web/UserAddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/web/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/web/update.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,24 +28,25 @@
     <session id="-340776646">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
-          <entry key="jsp" value="14" />
+          <entry key="jsp" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="JSP" value="14" />
+          <entry key="JSP" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,23 +65,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jstl/jstl_test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="39" column="28" selection-end-line="56" />
+            <state relative-caret-position="-30">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/allen/domain/User.java">
+        <entry file="file://$PROJECT_DIR$/web/jstl/jstl3.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="737">
+              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jstl/jstl2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jstl/jstl1.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -117,10 +141,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -162,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +228,12 @@
               <item name="day10_el&amp;jstl" type="b2602c69:ProjectViewProjectNode" />
               <item name="day10_el&amp;jstl" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="el" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day10_el&amp;jstl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_el&amp;jstl" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="jstl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -212,6 +241,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,17 +357,18 @@
       <updated>1582601267674</updated>
       <workItem from="1582601271059" duration="6629000" />
       <workItem from="1582639408162" duration="376000" />
+      <workItem from="1582776235602" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7005000" />
+    <option name="totallyTimeSpent" value="7998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14477211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14678285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -415,25 +446,6 @@
     <entry file="file://$PROJECT_DIR$/day10_el&amp;jstl.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/el/el3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/el/el1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/el/el4.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/top.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -450,32 +462,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jstl/jstl1.jsp">
+    <entry file="file://$PROJECT_DIR$/web/el/el3.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="407">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jstl/jstl2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/el/el4.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jstl/jstl3.jsp">
+    <entry file="file://$PROJECT_DIR$/web/el/el1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jstl/jstl_test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="39" column="28" selection-end-line="56" />
-        </state>
+        <state relative-caret-position="-270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/allen/domain/User.java">
@@ -485,6 +488,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jstl/jstl_test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jstl/jstl3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jstl/jstl2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jstl/jstl1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
         </state>
       </provider>
     </entry>

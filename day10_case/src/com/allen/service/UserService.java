@@ -16,6 +16,15 @@ public interface UserService {
 
     /**
      * 添加用户信息
+     * @param user
+     * @return
      */
     public int add(User user);
+
+    /**
+     * 修改用户信息
+     * @param user
+     * @return
+     */
+    public int update(User user);
 }

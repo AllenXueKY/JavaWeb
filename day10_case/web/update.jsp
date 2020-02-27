@@ -1,8 +1,9 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- 网页使用的语言 -->
 <html lang="zh-CN">
     <head>
-    	<base href="<%=basePath%>"/>
+        <base href="${pageContext.request.contextPath}/userListServlet">
         <!-- 指定字符集 -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,10 +18,10 @@
     <body>
         <div class="container" style="width: 400px;">
         <h3 style="text-align: center;">修改联系人</h3>
-        <form action="" method="post">
+        <form action="${pageContext.request.contextPath}/userUpdatServlet" method="post">
           <div class="form-group">
             <label for="name">姓名：</label>
-            <input type="text" class="form-control" id="name" name="name"  readonly="readonly" placeholder="请输入姓名" />
+            <input type="text" class="form-control" id="name" name="name"  readonly="readonly" placeholder="${pageContext.request.getAttribute(users)}" />
           </div>
 
           <div class="form-group">
@@ -45,18 +46,20 @@
 
           <div class="form-group">
             <label for="qq">QQ：</label>
-            <input type="text" class="form-control" name="qq" placeholder="请输入QQ号码"/>
+            <input type="text" class="form-control" name="qq" id="qq" placeholder="请输入QQ号码"/>
           </div>
 
           <div class="form-group">
             <label for="email">Email：</label>
-            <input type="text" class="form-control" name="email" placeholder="请输入邮箱地址"/>
+            <input type="text" class="form-control" name="email" id="email" placeholder="请输入邮箱地址"/>
           </div>
 
              <div class="form-group" style="text-align: center">
                 <input class="btn btn-primary" type="submit" value="提交" />
                 <input class="btn btn-default" type="reset" value="重置" />
-                <input class="btn btn-default" type="button" value="返回"/>
+             <a href="${pageContext.request.contextPath}/userListServlet">
+                 <input class="btn btn-default" type="button" value="返回"/>
+             </a>
              </div>
         </form>
         </div>
