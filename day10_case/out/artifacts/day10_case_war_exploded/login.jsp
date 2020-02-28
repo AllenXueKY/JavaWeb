@@ -18,12 +18,8 @@
     </script>
 
 	<script>
-	  /**
-	   *      点击超链接或者图片，需要换一张
-	   *      1、给超链接和图片绑定单击事件
-	   *      2、重新设置图片的src属性值
-	   */
-	  window.onload = function () {
+	  //切换验证码
+	  function refreshCode() {
 		  //获取图片对象
 		  var img = document.getElementById("checkCode");
 		  img.onclick = function () {
@@ -53,7 +49,9 @@
 	      <div class="form-inline">
 	        <label for="verifycode">验证码：</label>
 	        <input type="text" name="checkCode" class="form-control" id="verifycode" placeholder="请输入验证码" style="width: 120px;"/>
-	        <a href="javascript:void(0)"><img src="${pageContext.request.contextPath}/checkCodeServlet" title="看不清点击刷新" id="checkCode"/></a>
+	        <a href="javascript:refreshCode()">
+				<img src="${pageContext.request.contextPath}/checkCodeServlet" title="看不清点击刷新" id="checkCode"/>
+			</a>
 	      </div>
 	      <hr/>
 	      <div class="form-group" style="text-align: center;">
@@ -66,7 +64,7 @@
 				<button type="button" class="close" data-dismiss="alert" >
 					<span>&times;</span></button>
 				<strong>
-					<font><%=request.getAttribute("cc_error") == null ? "" : request.getAttribute("cc_error")%></font>
+					<strong><%=request.getAttribute("cc_error") == null ? "" : request.getAttribute("cc_error")%></strong>
 					登录失败!
 				</strong>
 			</div>
@@ -77,9 +75,9 @@
 					<span>&times;</span></button>
 				<strong>
 					登陆成功，
-					<font><%=request.getAttribute("lastTime") == null ? "欢迎您首次使用！" : "您上次登录的时间是："+request.getAttribute("lastTime")%></font>
+					<strong><%=request.getAttribute("lastTime") == null ? "欢迎您首次使用！" : "您上次登录的时间是："+request.getAttribute("lastTime")%></strong>
 				</strong>
-				<a class="btn btn-default" href="${pageContext.request.contextPath}/userListServlet" role="button">进入管理界面</a>
+				<a class="btn btn-default" href="${pageContext.request.contextPath}/index.jsp" role="button">进入管理界面</a>
 			</div>
 		</c:if>
   	</div>

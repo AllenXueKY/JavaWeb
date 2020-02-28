@@ -1,4 +1,4 @@
-package com.allen.web;
+package com.allen.web.servlet;
 
 import com.allen.domain.User;
 import com.allen.service.UserService;
@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
-@WebServlet("/userUpdatServlet")
-public class UserUpdatServlet extends HttpServlet {
+@WebServlet("/userAddServlet")
+public class UserAddServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         //获取所有请求参数
@@ -30,13 +30,13 @@ public class UserUpdatServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        //调用UserService的update方法
+        //调用UserService的add方法
         UserService service = new UserServiceImpl();
-        int count = service.update(user);
+        int count = service.add(user);
         if (count != 0){
-            //重定向到list.jsp
-            response.sendRedirect(request.getContextPath()+"/userListServlet");
+            response.sendRedirect(request.getContextPath()+"/userFindByPageServlet");
         }
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

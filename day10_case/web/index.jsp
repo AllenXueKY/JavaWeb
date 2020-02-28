@@ -18,9 +18,10 @@
   </script>
 </head>
 <body>
+<div>${admin.username}，欢迎您</div>
 <div align="center">
   <a
-          href="${pageContext.request.contextPath}/login.jsp" style="text-decoration:none;font-size:33px">查询所有用户信息
+          href="${pageContext.request.contextPath}/userFindByPageServlet" style="text-decoration:none;font-size:33px">查询所有用户信息
   </a>
 </div>
 </body>

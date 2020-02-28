@@ -1,4 +1,4 @@
-package com.allen.web;
+package com.allen.web.servlet;
 
 import com.allen.dao.AdminDao;
 import com.allen.dao.impl.AdminDaoImpl;
@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-
+        //获取用户填写的验证码
         String checkCode = request.getParameter("checkCode");
         //先获取生成的验证码
         HttpSession session = request.getSession();
@@ -55,7 +55,7 @@ public class LoginServlet extends HttpServlet {
             }else {
                 //登陆成功
                 //存储数据
-                session.setAttribute("admin",admin.getUsername());
+                session.setAttribute("admin",admin);
                 request.setAttribute("lastTime",admin.getLastTime());
                 service.updateLastTime(admin);
                 //转发到登录页面
