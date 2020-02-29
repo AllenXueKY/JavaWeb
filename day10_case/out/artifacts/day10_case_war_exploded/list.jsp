@@ -68,9 +68,20 @@
                 }
             }
         }
+        function exit() {
+            if(confirm("你确定要退出吗？")){
+                location.href = "${pageContext.request.contextPath}/userExitServlet";
+            }
+        }
+
+
     </script>
 </head>
 <body>
+<div>
+    ${admin.username}，欢迎您
+    <a class="btn btn-default btn-sm" href="javascript:exit();">退出登录</a>
+</div>
 <div class="container">
     <h3 style="text-align: center">用户信息列表</h3>
     <div style="float: left">

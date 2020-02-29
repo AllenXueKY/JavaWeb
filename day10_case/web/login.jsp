@@ -59,6 +59,18 @@
 	       </div>
 	  	</form>
 		<!-- 出错显示的信息框 -->
+        <c:if test="${pageContext.request.getAttribute('login_msg') == '您尚未登录，请登录'}">
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" >
+                    <span>&times;</span></button>
+                <strong>
+                    <strong><%=request.getAttribute("login_msg") == null ? "" : "您尚未登录，请登录"%></strong>
+                </strong>
+            </div>
+            <%
+                request.getSession().removeAttribute("login_msg");
+            %>
+        </c:if>
 		<c:if test="${not empty pageContext.request.getAttribute('cc_error')}">
 			<div class="alert alert-warning alert-dismissible" role="alert">
 				<button type="button" class="close" data-dismiss="alert" >
@@ -80,6 +92,7 @@
 				<a class="btn btn-default" href="${pageContext.request.contextPath}/index.jsp" role="button">进入管理界面</a>
 			</div>
 		</c:if>
+
   	</div>
   </body>
 </html>

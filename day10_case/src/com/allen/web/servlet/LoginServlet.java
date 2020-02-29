@@ -61,12 +61,6 @@ public class LoginServlet extends HttpServlet {
                 //转发到登录页面
                 request.getRequestDispatcher("/login.jsp").forward(request,response);
 
-                /*Cookie cookie = new Cookie("isOverdue","false");
-                cookie.setValue("false");
-                //设置cookie的存活时间
-                cookie.setMaxAge(60*60*12);//半天
-                response.addCookie(cookie);*/
-
             }
         }else {
             //验证码不一致
