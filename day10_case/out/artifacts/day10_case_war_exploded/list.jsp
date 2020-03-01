@@ -181,9 +181,11 @@
                 <span style="font-size: 25px;margin-left: 5px">
                     共${pb.totalCount}条记录，共${pb.totalPage}页
                 </span>
-
             </ul>
         </nav>
+    </div>
+    <div style="float: right;margin: 5px">
+        <a class="btn btn-primary" href="${pageContext.request.contextPath}/index.jsp">返回</a>
     </div>
 </div>
 </body>

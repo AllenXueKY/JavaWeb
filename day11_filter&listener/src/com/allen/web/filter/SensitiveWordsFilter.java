@@ -37,14 +37,10 @@ public class SensitiveWordsFilter implements Filter {
                             }
                         }
                     }
-                    
                     return  value;
                 }
-
                 //判断方法名是否是 getParameterMap
-
                 //判断方法名是否是 getParameterValue
-
                 return method.invoke(req,args);
             }
         });
