@@ -18,6 +18,7 @@ com\allen\travel\domain\Favorite.class
 com\allen\travel\web\servlet\LoginServlet.class
 com\allen\travel\dao\UserDao.class
 com\allen\travel\domain\RouteImg.class
+com\allen\travel\web\servlet\ExitServlet.class
 com\allen\travel\web\servlet\RegistUserServlet.class
 com\allen\travel\domain\User.class
 com\allen\travel\util\Md5Util.class

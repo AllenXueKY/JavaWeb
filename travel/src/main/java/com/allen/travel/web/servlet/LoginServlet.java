@@ -69,12 +69,14 @@ public class LoginServlet extends HttpServlet {
         }
         //6、判断登录成功
         if(u != null && "Y".equals(u.getStatus())){
+            request.getSession().setAttribute("user",u);//登录成功标记
             //登录成功
             info.setFlag(true);
         }
         //响应数据
         ObjectMapper mapper = new ObjectMapper();
         response.setContentType("application/json;charset=utf-8");
+
         mapper.writeValue(response.getOutputStream(),info);
     }
 

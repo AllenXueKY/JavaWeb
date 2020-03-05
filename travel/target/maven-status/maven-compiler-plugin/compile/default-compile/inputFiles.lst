@@ -11,6 +11,7 @@ D:\java\JavaWeb\travel\src\main\java\com\allen\travel\domain\RouteImg.java
 D:\java\JavaWeb\travel\src\main\java\com\allen\travel\test\TestTravel.java
 D:\java\JavaWeb\travel\src\main\java\com\allen\travel\dao\UserDao.java
 D:\java\JavaWeb\travel\src\main\java\com\allen\travel\web\servlet\CheckCodeServlet.java
+D:\java\JavaWeb\travel\src\main\java\com\allen\travel\web\servlet\ExitServlet.java
 D:\java\JavaWeb\travel\src\main\java\com\allen\travel\domain\Seller.java
 D:\java\JavaWeb\travel\src\main\java\com\allen\travel\service\UserService.java
 D:\java\JavaWeb\travel\src\main\java\com\allen\travel\util\Md5Util.java
