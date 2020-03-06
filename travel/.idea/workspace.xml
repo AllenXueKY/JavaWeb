@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92fc3d5a-8a33-45e4-b731-94e352f703f6" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/travel/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/travel/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/route_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/route_list.html" afterDir="false" />
-    </list>
+    <list default="true" id="92fc3d5a-8a33-45e4-b731-94e352f703f6" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +13,7 @@
     <session id="1849293015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.45" value="1" />
@@ -198,7 +191,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Dfile.encoding=gb2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -428,7 +421,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583493151993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583494333978" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -612,7 +605,7 @@
       <updated>1583381279592</updated>
       <workItem from="1583381280923" duration="3129000" />
       <workItem from="1583400667565" duration="20235000" />
-      <workItem from="1583468715273" duration="15781000" />
+      <workItem from="1583468715273" duration="15782000" />
     </task>
     <servers />
   </component>
@@ -649,10 +642,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39145000" />
+    <option name="totallyTimeSpent" value="39146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48567334" weight="0.56708163" />
