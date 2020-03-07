@@ -10,4 +10,11 @@ public interface CategoryService {
      * @return
      */
     public List<Category> findAll();
+
+    /**
+     * 根据cid查询cname
+     * @param cid
+     * @return
+     */
+    public String findName(int cid);
 }

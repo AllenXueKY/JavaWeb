@@ -10,4 +10,10 @@ public interface CategoryDao {
      * @return
      */
     public List<Category> findAll();
+
+    /**
+     * 根据cid查询cname
+     * @return
+     */
+    public String findName(int cid);
 }

@@ -27,7 +27,6 @@ public class CategoryServiceImpl implements CategoryService {
         List<Category> cs = null;
         //2、判断查询的集合是否为空
         if(categorys == null || categorys.size() == 0) {
-            System.out.println("从数据库中查询。。。");
             //3、如果为空，需要从数据库查询，再将数据存入redis
             //从数据库查询
             cs = categoryDao.findAll();
@@ -36,7 +35,6 @@ public class CategoryServiceImpl implements CategoryService {
                 jedis.zadd("category",cs.get(i).getCid(),cs.get(i).getCname());
             }
         }else {
-            System.out.println("从redis中查询。。。");
             //4、如果不为空，将set的数据存入list
             cs = new ArrayList<Category>();
             for (Tuple tuple : categorys) {
@@ -47,5 +45,10 @@ public class CategoryServiceImpl implements CategoryService {
             }
         }
         return cs;
+    }
+
+    @Override
+    public String findName(int cid) {
+        return categoryDao.findName(cid);
     }
 }
