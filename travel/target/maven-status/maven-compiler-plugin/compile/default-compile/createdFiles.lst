@@ -3,6 +3,7 @@ com\allen\travel\service\RouteService.class
 com\allen\travel\web\servlet\ActiveUserServlet.class
 com\allen\travel\web\servlet\FindUserServlet.class
 com\allen\travel\domain\ResultInfo.class
+com\allen\travel\test\TestTravel.class
 com\allen\travel\web\filter\CharchaterFilter.class
 com\allen\travel\dao\CategoryDao.class
 com\allen\travel\service\UserService.class
